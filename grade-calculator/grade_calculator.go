@@ -81,3 +81,7 @@ func computeAverage(grades []Grade, gradeType GradeType) int {
 
 	return sum / count
 }
+
+func (gc *GradeCalculator) GetPassFail() string{
+	return ""
+}
